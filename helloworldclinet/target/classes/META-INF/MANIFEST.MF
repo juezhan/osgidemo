@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1496804915501
+Build-Jdk: 1.8.0_74
+Built-By: Administrator
+Bundle-Blueprint: OSGI-INF/blueprint/my-service.xml
+Bundle-Description: helloworld-clinet OSGi blueprint bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: helloworld-clinet Blueprint Bundle
+Bundle-SymbolicName: helloworld-clinet
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.osgidemo;version="1.0.0.SNAPSHOT";uses:="org.osgi.fr
+ amework",com.osgidemo.api;version="1.0.0.SNAPSHOT",com.osgidemo.client;
+ version="1.0.0.SNAPSHOT";uses:="com.osgidemo.api"
+Import-Package: com.osgidemo.api;version="[1.0,2)",org.osgi.framework,or
+ g.osgi.service.blueprint;version="[1.0.0,2.0.0)"
+Import-Service: com.osgidemo.api.IHelloWorldApi;multiple:=false
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326

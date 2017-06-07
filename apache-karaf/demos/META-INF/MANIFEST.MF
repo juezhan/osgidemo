@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Apache Karaf :: Assemblies :: Demos
+Implementation-Version: 4.1.1
+Built-By: jbonofre
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Apache Karaf :: Assemblies :: Demos
+Implementation-Vendor-Id: org.apache.karaf
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_111
+Specification-Version: 4.1
+Implementation-URL: http://www.apache.org/karaf/assemblies/demos/
+Implementation-Vendor: The Apache Software Foundation
+

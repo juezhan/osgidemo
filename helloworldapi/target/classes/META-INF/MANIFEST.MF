@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1496801249931
+Build-Jdk: 1.8.0_74
+Built-By: Administrator
+Bundle-Activator: com.osgidemo.Activator
+Bundle-Description: helloworld-api OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: helloworld-api Bundle
+Bundle-SymbolicName: helloworld-api
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.osgidemo;version="1.0.0.SNAPSHOT";uses:="org.osgi.fr
+ amework",com.osgidemo.api;version="1.0.0.SNAPSHOT"
+Import-Package: org.osgi.framework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-3.0.0.201509101326
